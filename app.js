@@ -4,7 +4,7 @@ const timeline = gsap.timeline({
 
 timeline.fromTo(
   ".hero-img",
-  { scale: 1.3, borderRadius: "0rem" },
+  { scale: 0, borderRadius: "0rem" },
   {
     scale: 1,
     borderRadius: "2rem",
